@@ -47,6 +47,6 @@ func main() {
 			updateCtime(os.Args[i+1])
 		}
 	} else {
-		os.Stderr.WriteString("No files specified")
+		os.Stderr.WriteString("No files specified\n")
 	}
 }
